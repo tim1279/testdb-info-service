@@ -20,6 +20,7 @@ public class DataLoader implements ApplicationRunner {
             Info info1 = new Info();
             info1.setInfo("info - " + i);
             infoRepository.save(info1);
+            System.out.println("will be isolation level");
         }
     }
 }
